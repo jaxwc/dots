@@ -10,6 +10,8 @@ alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 alias intersect="cd '/Users/jackson/Library/Mobile Documents/iCloud~md~obsidian/Documents/intersect'"
 alias bu="brew update && brew upgrade && brew cleanup && brew autoremove"
 alias ls='eza --icons --group-directories-first'
+alias ll="eza --long --header --git --icons --all --group-directories-first"
+alias tree="eza --tree --level=2 --all"
 
 #starship
 eval "$(starship init zsh)"
