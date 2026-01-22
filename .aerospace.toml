@@ -79,7 +79,7 @@ on-mode-changed = []
     outer.top =        [
 	{monitor."LG ULTRAGEAR+" = 45},
 	{monitor."LG HDR 4k" = 45},
-	15,
+	10,
 	]
     outer.right =      10
 
