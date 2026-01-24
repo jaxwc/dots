@@ -20,6 +20,9 @@ export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 #zoxide
 eval "$(zoxide init zsh)"
 
+#fzf
+source <(fzf --zsh)
+
 #zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
