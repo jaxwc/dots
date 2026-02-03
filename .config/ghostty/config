@@ -2,10 +2,9 @@ font-family = JetBrainsMono Nerd Font
 font-size = 18
 
 theme = Flexoki Dark
-background-opacity = 0.75
+background-opacity = 0.70
 background-blur = true
-background = 000000
-# background-blur-radius = 20
+background = #000000
 
 window-padding-x = 8
 window-padding-y = 8
@@ -17,5 +16,7 @@ cursor-invert-fg-bg = true
 mouse-hide-while-typing = true
 macos-titlebar-style = hidden
 macos-option-as-alt = true
+
+shell-integration-features = no-cursor
 
 keybind = super+shift+r=reload_config
