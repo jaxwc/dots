@@ -1,19 +1,24 @@
 return {
-  "folke/tokyonight.nvim",
-  lazy = false,
-  priority = 1000,
-  config = function()
-    require("tokyonight").setup({
-      style = "night", 
-      transparent = true,
-      styles = {
-        comments = { italic = false },
-        keywords = { italic = false },
-        sidebars = "transparent",
-        floats = "transparent",
-      },
-    })
-
-    vim.cmd.colorscheme("tokyonight-night")
-  end,
+	"nuvic/flexoki-nvim",
+	name = "flexoki",
+	lazy = false,
+	priority = 1000,
+	config = function()
+		require("flexoki").setup({
+			variant = "moon",
+			styles = {
+				bold = true,
+				italic = false,
+			},
+			highlight_groups = {
+				Normal = { bg = "NONE" },
+				NormalNC = { bg = "NONE" },
+				NormalFloat = { bg = "NONE" },
+				FloatBorder = { bg = "NONE" },
+				SignColumn = { bg = "NONE" },
+				EndOfBuffer = { bg = "NONE" },
+			},
+		})
+		vim.cmd("colorscheme flexoki")
+	end,
 }

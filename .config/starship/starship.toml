@@ -17,37 +17,40 @@ $character
 
 right_format = """$all"""
 
-palette = "custom"
-
-[palettes.custom]
-base = "#1a1b26"       # Tokyo Night Storm Background
-mantle = "#16161e"     # Darker Background
-crust = "#11111b"      # Darkest Background
-text = "#c0caf5"       # Foreground
-subtext1 = "#a9b1d6"
-subtext0 = "#9aa5ce"
-
-red = "#f7768e"
-orange = "#ff9e64"
-yellow = "#e0af68"
-green = "#9ece6a"
-teal = "#73daca"
-sky = "#7dcfff"
-blue = "#7aa2f7"
-purple = "#bb9af7"
-
-sapphire = "#7aa2f7"   # Maps to Blue (Used for Directory)
-lavender = "#9d7cd8"   # Maps to Purple (Used for Git Branch)
-peach = "#ff9e64"      # Maps to Orange (Used for Time BG)
-foam = "#7dcfff"       # Maps to Cyan (Used for Time FG)
-pine = "#2ac3de"       # Maps to Cyan-Dark
-maroon = "#f7768e"     # Maps to Red
-pink = "#bb9af7"       # Maps to Magenta
-flamingo = "#f7768e"   # Maps to Red
-rosewater = "#f7768e"  # Maps to Red
-gold = "#e0af68"       # Maps to Yellow
-rose = "#f7768e"       # Maps to Red
-black = "#15161e"      # Dark Black (Used for Git Branch pill background)
+palette = "flexoki"
+[palettes.flexoki]
+# Flexoki base colors
+base = "#100f0f"
+mantle = "#1c1b1a"
+crust = "#282726"
+text = "#cecdc3"
+subtext1 = "#b7b5ac"
+subtext0 = "#878580"
+muted = "#575653"
+# Core colors (400 variants)
+red = "#d14d41"
+orange = "#da702c"
+yellow = "#d0a215"
+green = "#879a39"
+cyan = "#3aa99f"
+blue = "#4385be"
+purple = "#8b7ec8"
+magenta = "#ce5d97"
+# Semantic mappings (aliased to Flexoki colors)
+sapphire = "#4385be"
+lavender = "#8b7ec8"
+peach = "#da702c"
+teal = "#3aa99f"
+pine = "#24837b"
+maroon = "#d14d41"
+pink = "#ce5d97"
+flamingo = "#ce5d97"
+rosewater = "#cecdc3"
+gold = "#d0a215"
+rose = "#d14d41"
+sky = "#4385be"
+foam = "#3aa99f"
+black = "#100f0f"
 
 
 [os.symbols]

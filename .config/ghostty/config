@@ -1,9 +1,10 @@
 font-family = JetBrainsMono Nerd Font
 font-size = 18
 
-config-file = themes/tokyonight
-background-opacity = 0.70
+theme = Flexoki Dark
+background-opacity = 0.75
 background-blur = true
+background = 000000
 # background-blur-radius = 20
 
 window-padding-x = 8
