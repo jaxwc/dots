@@ -8,8 +8,6 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 # directories
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
-alias intersect="cd '/Users/jackson/Library/Mobile Documents/iCloud~md~obsidian/Documents/intersect'"
-alias ttu="cd '/Users/jackson/Library/Mobile Documents/iCloud~md~obsidian/Documents/intersect/school/2/spring2026'"
 
 # git
 alias g="git"
@@ -45,6 +43,9 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS='--color=bg+:#283457,bg:-1,gutter:-1,spinner:#ff9e64,hl:#7ad5ff,fg:#c0caf5,header:#9ece6a,info:#0db9d7,pointer:#7aa2f7,marker:#9ece6a,fg+:#c0caf5,prompt:#7aa2f7,hl+:#7ad5ff --prompt="❯ " --pointer="❯" --layout=reverse --border --height=40%'
 export FZF_CTRL_T_OPTS="--preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 source <(fzf --zsh)
+
+# tmux
+alias ta="tmux attach"
 
 # zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
