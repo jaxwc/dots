@@ -1,5 +1,7 @@
+auto-update-channel = tip
+
 font-family = JetBrainsMono Nerd Font
-font-size = 20
+font-size = 16
 
 theme = Flexoki Dark
 background-opacity = 0.70
